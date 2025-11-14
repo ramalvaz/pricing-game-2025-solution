@@ -1,0 +1,54 @@
+{
+  "base_values": {
+    "value": 74.98
+  },
+  "relativities": {
+    "vehicle_make": {
+      "Isuzu": 1.3619,
+      "KIA": 1.3888,
+      "Mercedes": 1.5981,
+      "Toyota": 1.0,
+      "other": 1.0,
+      "Chevrolet": 1.0,
+      "Ford": 1.0,
+      "Hyundai": 1.0
+    },
+    "body_type": {
+      "4x4": 2.76,
+      "heavycomm": 2.0668,
+      "lightcomm": 1.7704,
+      "pickup": 1.8204,
+      "sedan": 1.0
+    },
+    "driver_age": {
+      "38-70": 1.0,
+      "0-29": 1.8639,
+      "29-38": 1.1897,
+      "70-inf": 0.8996
+    },
+    "province": {
+      "AS": 1.5131,
+      "BA": 0.8241,
+      "HA": 1.3774,
+      "HS": 1.4567,
+      "JF": 1.4528,
+      "JZ": 1.2484,
+      "MD": 1.3007,
+      "MK": 1.5041,
+      "NJ": 1.0909,
+      "QS": 1.9133,
+      "RI": 1.0,
+      "SH": 1.2706
+    },
+    "horsepower": {
+      "0-69": 1.0,
+      "69-102": 1.5793,
+      "102-112": 1.8485,
+      "112-115": 2.374,
+      "115-131": 2.827,
+      "131-145": 3.9045,
+      "145-inf": 5.9727
+    }
+  },
+  "base_group": "vehicle_make: Toyota, body_type: sedan, driver_age: 38-70, province: RI, horsepower: 0-69"
+}
